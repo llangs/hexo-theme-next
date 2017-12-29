@@ -115,7 +115,7 @@ scheme: Pisces
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/yourname || github
+  GitHub: https://github.com/llangs || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -141,7 +141,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-#avatar: /images/avatar.gif
+avatar: /images/goinon.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -340,10 +340,20 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: a2642a736dc3c81d4bf474eec2063fd0
 
 # Duoshuo ShortName
 #duoshuo_shortname:
+
+# Gitalk
+gitalk:
+  enable: true
+  clientID: 'd8aaec5023742c0bc728'
+  clientSecret: '6e912aa2db6182b14921ac188208f9ce5475cbd2'
+  repo: comments
+  owner: llangs
+  admin: llangs
+  distractionFreeMode: true
 
 # Disqus
 disqus:

@@ -47,5 +47,9 @@
     <div class="comments" id="comments">
       <div id="vcomments"></div>
     </div>
+  {% elseif theme.gitalk.distractionFreeMode %}
+    <div class="comments" id="comments">
+      <div id="gitalk-container"></div>
+    </div>
   {% endif %}
 {% endif %}
